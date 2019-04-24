@@ -1,0 +1,62 @@
+.news-letter-bg {
+    background: #52AE32;
+    height: 280px;
+}
+
+
+.news-letter h2 {
+    text-align: center;
+    font-family: 'Trebuchet Ms';
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.news-letter h4 {
+    text-align: center;
+    font-family: 'Trebuchet Ms';
+    color: #fff;
+    margin-top: 0;
+
+}
+
+.email-form {
+    text-align: center;
+   padding-bottom: 30px;
+
+    input {
+        width: 80%;
+        height: 60px;
+        border-radius: 20px;
+        padding-right: 40px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #fff;
+        width: 20%;
+        height: 50px;
+        color: #52AE32;
+        border-radius: 10px;
+    }
+}
+
+
+.full-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.full-option ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.full-option h3 {
+    border-bottom: 5px solid #fff;
+    padding-top: 40px;
+}
