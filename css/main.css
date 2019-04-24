@@ -425,10 +425,11 @@ footer {
   padding: 0 15px; }
 
 .page-header {
-  background: url("../images/bg_header.jpg") center bottom;
-  background-size: cover;
-  min-height: 50vh;
-  box-shadow: 0 4px 20px #a7a7a7; }
+  background-color: #FBF1EF;
+  height: 150px; }
+
+.accueil-content img {
+  align-items: center; }
 
 .page-header-inner {
   display: flex;
@@ -554,17 +555,21 @@ footer {
   background-color: #FBF1EF; }
 
 .infos-contact ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  list-style: none;
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 0;
-  font-family: 'Arial';
+  font-family: 'Trebuchet Ms';
   color: #000; }
 
 .infos-contact ul a {
   color: #000; }
 
 .contact h2 {
-  font-family: 'Anton';
+  font-family: 'Trebuchet Ms';
   color: #000;
   text-align: center;
   margin-top: 50px; }
