@@ -560,7 +560,8 @@ footer {
 
 .contact-bg {
   background-color: #FBF1EF;
-  margin-top: 30px; }
+  margin-top: 0;
+  padding: 60px; }
 
 .infos-contact ul {
   display: flex;
@@ -580,7 +581,7 @@ footer {
   font-family: 'Trebuchet Ms';
   color: #000;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 0; }
 
 .produits {
   background-image: url("../images/bgproduits.png");
@@ -705,13 +706,37 @@ footer {
 
 .btn button {
   background-color: #E5007F;
+  padding: 20px;
   color: #fff;
   margin: 20px 10px 30px 500px; }
 
 .fournisseurs {
-  background-image: url("../images/bgfournisseurs.png"); }
+  background-image: url("../images/bgfournisseurs.png");
+  min-height: 90vh; }
 
 .fournisseurs-content {
-  display: flex; }
+  background-color: rgba(255, 255, 255, 0.79);
+  display: flex;
+  min-height: 70vh; }
+
+.fournisseurs-infos {
+  width: 50%; }
+
+.fournisseurs-infos h2 {
+  text-align: center;
+  color: #52AE32;
+  padding-top: 80px; }
+
+.fournisseurs-infos p {
+  color: #707070; }
+
+.fournisseurs-infos button {
+  background-color: #E5007F;
+  color: #fff;
+  padding: 20px;
+  margin: 80px; }
+
+.fournisseurs-img {
+  padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */
