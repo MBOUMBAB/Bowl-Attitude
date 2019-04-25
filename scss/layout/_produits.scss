@@ -1,41 +1,51 @@
-.produits{
-    background-image: url('../images/bg/produits@2x.png');
+.produits {
+    background-image: url('../images/bgproduits.png');
     background-size: cover;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.produits-content h1{
-    font-family:('Trebuchet Ms');
-  text-align: center;
-  padding-top: 30px;
-  color: #E5007F;
+
+.produits-content h1 {
+    font-family: ('Trebuchet Ms');
+    text-align: center;
+    padding-top: 30px;
+    color: #E5007F;
 }
-.pdej-img{
+
+.pdej-img {
     display: flex;
     padding: 10px;
-    
+
 }
-.pdej-infos{
+
+.pdej-infos {
     font-family: ('Trebuchet Ms');
     padding: 40px 20px 5px;
-    
+
 }
-.pdej-infos button{
+.pdej-infos p{
+    color: #000;
+}
+
+.pdej-infos button {
     background-color: #E5007F;
     color: #fff;
     margin: 70px 10px 30px 400px;
 }
-.pdej{
+
+.pdej {
     display: flex;
     background-color: #fff;
-   
+
 }
-.item-1{
+
+.item-1 {
     margin-bottom: 20px;
-   
+
 }
-.image-1{
+
+.image-1 {
     padding-right: 10px;
 }
