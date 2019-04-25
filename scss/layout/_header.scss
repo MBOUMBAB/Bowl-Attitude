@@ -4,6 +4,8 @@
    
   }
   .accueil-content img{align-items: center;
+    display: flex;
+    
 
   }
   
@@ -19,4 +21,8 @@
       align-items: flex-start;
     }
   
+  }
+  .main-nav ul{
+    background-color: #ee7618;
+    margin-top: 300px;
   }

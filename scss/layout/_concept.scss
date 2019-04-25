@@ -1,12 +1,20 @@
-.services-inner {
-    padding: 75px 30px 30px;
+.concept{
+    background-image: url('../images/bg\ main.png');
+    background-size: cover;
+    height: 100%;
+}
+
+.concept-inner {
+    background-color: #faf8f0;
+    width: 65%;
+   padding-right: 20px 20px 30px 10px;
 
     @media(min-width: $bp-medium) {
         display: flex;
         //ici je veux mettre tous mes items sur la meme ligne
     }
 
-    .services-col {
+    .concept-col {
         margin-bottom: 45px;
         padding: 0 30px 0 75px;
         background-repeat: no-repeat;
@@ -26,22 +34,13 @@
             }
         }
 
-        &:nth-of-type(1) {
-            background-image: url('../images/bg_web.gif');
-        }
-
-        &:nth-of-type(2) {
-            background-image: url('../images/bg_mobile.gif');
-        }
-
-        &:nth-of-type(3) {
-            background-image: url('../images/bg_photo.gif');
-        }
+        
     }
 
     h2 {
+        font-family:('Trebuchet Ms');
         font-size: 1.75rem;
-        color: $dark-gray;
+        color:#52AE32;
         margin: 0.5rem 0 0;
     }
 }

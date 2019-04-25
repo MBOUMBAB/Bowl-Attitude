@@ -1,0 +1,56 @@
+.franchises-content{
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 0 auto;
+}
+
+.container h1{
+    text-align: center;
+    font-family: ('Trebuchet Ms');
+    color: #52AE32;
+}
+.franchises-themes{
+    padding-top: 30px;
+}
+.franchises-infos-1{
+    background-color: #f7B500;
+   
+  margin-right: 34px;
+    
+}
+.franchises-infos-2{
+    background-color: #52AE32;
+  
+    margin-right: 34px;
+}
+
+.franchises-infos-3{
+    background-color: #EE7618;
+    margin-right: 36px;
+}
+.franchises-themes h2{
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-family: ('Trebuchet MS');
+    
+}
+.franchises-themes h3, p{
+    font-family: ('Trebuchet MS');
+    text-align: center;
+    color: #fff;
+}
+
+.franchises-themes h4{
+    text-align: right;
+    padding-bottom: 20px;
+    color: #fff;
+    font-family: serif;
+}
+.far{
+    color: #fff;
+    font-size: 2rem;
+}
+
