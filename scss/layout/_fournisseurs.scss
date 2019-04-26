@@ -1,34 +1,56 @@
-.fournisseurs{
+.fournisseurs {
     background-image: url('../images/bgfournisseurs.png');
     min-height: 90vh;
-    
+
+
 }
-.fournisseurs-content{
+
+.fournisseurs-content {
     background-color: rgba(255, 255, 255, 0.79);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
- 
+    padding-bottom: 40px;
+  
+
+
 }
-.fournisseurs-infos{
+
+.title h1 {
+    padding: 50px;
+}
+
+.fournisseurs-infos {
     width: 50%;
+
 }
-.fournisseurs-infos h2{
+
+.fournisseurs-infos h2 {
     text-align: center;
     color: #52AE32;
-    padding-top: 80px;
+    padding-top: 20px;
 }
-.fournisseurs-infos p{
+
+.fournisseurs-infos p {
     color: #707070;
 }
-.fournisseurs-infos button{
+
+.fournisseurs-infos button {
     background-color: #E5007F;
+    border-radius: 20px;
     color: #fff;
-     padding: 20px;
+    padding: 20px;
     margin-left: 10rem;
     margin-top: 20px;
 }
-.fournisseurs-img{
+
+.fournisseurs-img {
     padding: 30px;
+
+}
+
+.item {
+    padding: 10px;
+
 }

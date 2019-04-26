@@ -560,7 +560,7 @@ footer {
 
 .contact-bg {
   background-color: #FBF1EF;
-  margin-top: 0;
+  margin-top: 0 auto;
   padding: 60px; }
 
 .infos-contact ul {
@@ -575,13 +575,20 @@ footer {
   color: #000; }
 
 .infos-contact ul a {
-  color: #000; }
+  color: #707070; }
 
-.contact h2 {
+.contact h1 {
   font-family: 'Trebuchet Ms';
-  color: #000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
+  padding-bottom: 20px;
   margin-top: 0; }
+
+.row img {
+  margin-left: auto;
+  margin-right: auto; }
 
 .produits {
   background-image: url("../images/bgproduits.png");
@@ -615,7 +622,8 @@ footer {
 
 .pdej {
   display: flex;
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.749);
+  border-radius: 20px; }
 
 .item-1 {
   margin-bottom: 20px; }
@@ -716,10 +724,14 @@ footer {
 
 .fournisseurs-content {
   background-color: rgba(255, 255, 255, 0.79);
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh; }
+  padding-bottom: 40px; }
+
+.title h1 {
+  padding: 50px; }
 
 .fournisseurs-infos {
   width: 50%; }
@@ -727,13 +739,14 @@ footer {
 .fournisseurs-infos h2 {
   text-align: center;
   color: #52AE32;
-  padding-top: 80px; }
+  padding-top: 20px; }
 
 .fournisseurs-infos p {
   color: #707070; }
 
 .fournisseurs-infos button {
   background-color: #E5007F;
+  border-radius: 20px;
   color: #fff;
   padding: 20px;
   margin-left: 10rem;
@@ -741,5 +754,8 @@ footer {
 
 .fournisseurs-img {
   padding: 30px; }
+
+.item {
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
