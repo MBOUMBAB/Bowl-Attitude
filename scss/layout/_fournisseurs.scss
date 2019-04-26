@@ -1,20 +1,29 @@
 .fournisseurs{
     background-image: url('../images/bgfournisseurs.png');
     min-height: 90vh;
+  
     
 }
 .fournisseurs-content{
     background-color: rgba(255, 255, 255, 0.79);
+    border-radius: 20px;
     display: flex;
-    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+ 
 }
+
+
 .fournisseurs-infos{
     width: 50%;
+   
 }
 .fournisseurs-infos h2{
     text-align: center;
     color: #52AE32;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 .fournisseurs-infos p{
     color: #707070;
@@ -22,9 +31,14 @@
 .fournisseurs-infos button{
     background-color: #E5007F;
     color: #fff;
-    padding: 20px;
-    margin: 80px;
+     padding: 20px;
+    margin-left: 10rem;
+    margin-top: 20px;
 }
 .fournisseurs-img{
     padding: 30px;
+    
+}
+.item{
+    padding: 10px;
 }
