@@ -601,7 +601,7 @@ footer {
 .produits-content h1 {
   font-family: "Trebuchet Ms";
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
   color: #E5007F; }
 
 .pdej-img {
@@ -618,12 +618,14 @@ footer {
 .pdej-infos button {
   background-color: #E5007F;
   color: #fff;
-  margin: 70px 10px 30px 400px; }
+  margin: 70px 10px 30px 400px;
+  padding: 10px 20px;
+  border-radius: 5px; }
 
 .pdej {
   display: flex;
   background-color: rgba(255, 255, 255, 0.749);
-  border-radius: 20px; }
+  border-radius: 10px; }
 
 .item-1 {
   margin-bottom: 20px; }
@@ -722,9 +724,12 @@ footer {
   background-image: url("../images/bgfournisseurs.png");
   min-height: 90vh; }
 
+.bloc-fournisseur {
+  padding-top: 50px; }
+
 .fournisseurs-content {
   background-color: rgba(255, 255, 255, 0.79);
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,9 +751,9 @@ footer {
 
 .fournisseurs-infos button {
   background-color: #E5007F;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #fff;
-  padding: 20px;
+  padding: 10px 30px;
   margin-left: 10rem;
   margin-top: 20px; }
 
@@ -757,5 +762,8 @@ footer {
 
 .item {
   padding: 10px; }
+
+.textcolor {
+  color: #52AE32; }
 
 /*# sourceMappingURL=main.css.map */
