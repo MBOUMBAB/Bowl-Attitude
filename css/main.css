@@ -717,6 +717,8 @@ footer {
 .fournisseurs-content {
   background-color: rgba(255, 255, 255, 0.79);
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 70vh; }
 
 .fournisseurs-infos {
@@ -734,7 +736,8 @@ footer {
   background-color: #E5007F;
   color: #fff;
   padding: 20px;
-  margin: 80px; }
+  margin-left: 10rem;
+  margin-top: 20px; }
 
 .fournisseurs-img {
   padding: 30px; }
