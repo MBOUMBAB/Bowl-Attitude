@@ -860,6 +860,10 @@ footer {
   min-height: 50vh;
 }
 
+.title h1 {
+  padding: 50px;
+}
+
 .fournisseurs-infos {
   width: 50%;
 }
@@ -876,6 +880,7 @@ footer {
 
 .fournisseurs-infos button {
   background-color: #E5007F;
+  border-radius: 20px;
   color: #fff;
   padding: 20px;
   margin-left: 10rem;
